@@ -58,16 +58,15 @@ const EditUser = () => {
     setNoId(response.data.noId);
     setPaket(response.data.paket);
     setAlamat(response.data.alamat);
-    setJatuhtempopembayaran(response.data.jatuhtempopembayaran);
-    setBuktipembayaran(response.data.buktipembayaran);
-    setJumlahtagihan(response.data.jumlahtagihan);
-    setHargapembayaran(response.data.hargapembayaran);
-    setTanggalpembayaran(response.data.tanggalpembayaran);
-    setSisapiutang(response.data.sisapiutang);
+    // setJatuhtempopembayaran(response.data.jatuhtempopembayaran);
+    // setBuktipembayaran(response.data.buktipembayaran);
+    // setJumlahtagihan(response.data.jumlahtagihan);
+    // setHargapembayaran(response.data.hargapembayaran);
+    // setTanggalpembayaran(response.data.tanggalpembayaran);
+    // setSisapiutang(response.data.sisapiutang);
     setKeterangan(response.data.keterangan);
-    setEmail(response.data.email);
-    setJenisKelamin(response.data.jeniskelamin);
-     console.log();
+    // setEmail(response.data.email);
+    // setJenisKelamin(response.data.jeniskelamin);
   };
 
   return (
@@ -195,6 +194,13 @@ const EditUser = () => {
                       className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                     />
                   </div>
+                  <div>
+        Upload File
+          <input
+          type="file"
+          className=""
+          />
+      </div>
                 </div>
               </div>
               <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">

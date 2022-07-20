@@ -59,7 +59,7 @@ const UserList = () => {
           />
         </div>
       </div>
-      <div className="grid gap-y-10 mt-10 justify-items-center md:flex w-screen justify-center md:justify-between">
+      <div className="grid gap-y-10 mt-10 justify-items-center md:flex w-screen justify-center md:justify-start">
        <div>
          <Link
            to={`add`}
@@ -68,13 +68,7 @@ const UserList = () => {
            Tambah Pemasang Baru
          </Link>
        </div>
-      <div>
-        Upload File
-          <input
-          type="file"
-          className=""
-          />
-      </div>
+     
       </div>
       <div className="overflow-x-scroll mt-5">
         <table>
